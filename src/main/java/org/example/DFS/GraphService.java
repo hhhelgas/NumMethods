@@ -2,7 +2,7 @@ package org.example.DFS;
 
 import java.util.*;
 
-public class Graph {
+public class GraphService {
 
     // Метод для генерации неориентированного связного графа без кратных ребер
     public static Map<Integer, List<Integer>> generateGraphDFS(int vertices, int edges) {

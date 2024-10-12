@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Arrays;
 
 public class JacobiMethod {
-    private static final long MAX_ITERATIONS = 1000000; // максимальное количество итераций
+    private static final long MAX_ITERATIONS = 1_000_000; // максимальное количество итераций
     private static final double TOLERANCE = 1e-6;  // точность
 
     // Метод для решения СЛАУ методом Якоби
